@@ -24,16 +24,52 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="icon" type="image/png" href="images/favicon.png">
 <div class="nav.container">
     <div class="row">
       <div class="twelve columns">
         <div class="navbar">
-          <a class="navbar-brand" href="index.html">Tundra</a>
+          <div id="o-wrapper" class="o-wrapper">
+            <div class="c-buttons">
+              <a id="c-button--slide-left" class="navbar-brand" href="#">Tundra</a>
+            </div>
+          </div>        
         </div>
       </div>
     </div>
   </div>
+          
+<nav id="c-menu--slide-left" class="c-menu c-menu--slide-left">
+  <button class="c-menu__close">&larr; Close Menu</button>
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="index.html" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="constitution.html" class="c-menu__link">Constitution</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">test</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">test</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">test</a></li>
+  </ul>
+</nav><!-- /c-menu slide-left -->
+
+<div id="c-mask" class="c-mask"></div>
+<!-- /c-mask -->
+<script src="JS/main.js"></script>
+<script>
+var slideLeft = new Menu({
+  wrapper: '#o-wrapper',
+  type: 'slide-left',
+  menuOpenerClass: '.c-button',
+  maskId: '#c-mask'
+});
+
+var slideLeftBtn = document.querySelector('#c-button--slide-left');
+
+slideLeftBtn.addEventListener('click', function(e) {
+  e.preventDefault;
+  slideLeft.open();
+});
+</script>
+
+
 
 </head>
 <body>
