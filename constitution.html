@@ -60,17 +60,63 @@ var slideLeft = new Menu({
   menuOpenerClass: '.c-button',
   maskId: '#c-mask'
 });
-
 var slideLeftBtn = document.querySelector('#c-button--slide-left');
-
 slideLeftBtn.addEventListener('click', function(e) {
   e.preventDefault;
   slideLeft.open();
 });
 </script>
 
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 13%;
+  height: 100%;
+  position: fixed; /* makes it stay even on scroll prob fcked on mobile */
+  overflow: auto; /* something about enable scrolling if sidenav too big */
+  background-color: #67b5d1;
+  border: 1px solid #555;
+}
+li a {
+  display: block; 
+  color: #ffffff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+  text-align: center;
+  font-size: 10pt;
+}
+li.last-child {
+  border-bottom: none;
+}
+/* this shit is gonna hover bruh */
+li a:hover { 
+background-color: #809fff;
+color: blue;
+}
+</style>
+
+
+<ul><b>
+<li><A HREF="#Article I">Article I – Formation and Membership</A></li>
+<li><A HREF="#Article II">Article II – Administration</A></li>
+<li><A HREF="#Article III">Article III – Teams and Rosters</A></li>
+<li><A HREF="#Article IV">Article IV – Drafting and Keepers</A></li>
+<li><A HREF="#Article V">Article V – Season Schedule, Matchups, Playoffs</A></li>
+<li><A HREF="#Article VI">Article VI – Transactions</A></li>
+<li><A HREF="#Article VII">Article VII – Scoring and Winning</A></li>
+<li><A HREF="#Article IX">Article IX – Amendments</A></li>
+<li><A HREF="#Article X">Article X – Ratification</A></li>
+<li><A HREF="#Top">Back to the top</A></li>
+</b></ul>
 
 </head>
+
+
 <body>
 
   <!-- Primary Page Layout
@@ -80,17 +126,15 @@ slideLeftBtn.addEventListener('click', function(e) {
     <div class="row">
       <div class="twelve columns" style="margin-top: 5%">
 
-<h2> Tundra League Constitution </h2>
 
-<p> Quick Links! </p>
-<h6> <A HREF="#Article I">Article I - Formation and Membership</A> </h6>
-<A NAME="Article I"></A>
-
+<h2><center> Tundra League Constitution </center></h2>
+<A name="top"></a>
 
 <h6> <b> Preamble </b> </p>
 
 <p> We the people of the Tundra Fantasy Football League, in order to form a more perfect League, establish justice, ensure fairness, promote a general code of ethics, and secure the blessings of liberty to ourselves and our friends, do ordain and establish this Constitution for the Tundra Fantasy Football League. </p>
 
+<A NAME="Article I"></A>
 <h5><center>Article I – Formation and Membership </center></h5>
 
 
@@ -113,10 +157,22 @@ slideLeftBtn.addEventListener('click', function(e) {
 
 <h6>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.4:    Ownership of a membership lies in the hands of the League. A member may not sell or pass on their rights to ownership to anyone. If a member wishes to leave the League, they shall report, in writing, their decision to the Commissioner, who will in turn alert the other members of the League and begin to contact individuals outside the League in search of a replacement. Generally there will be no refund of the entry fee, unless extreme personal circumstances exist.</h6>
 
+<A NAME="Article II"></A>
+<h5> <center>Article II – Administration</center></h5>
 
+<A NAME="Article III"></A>
+<h5> <center>Article III – Teams and Rosters</center></h5>
 
+<A NAME="Article IV"></A>
+<h5> <center>Article IV – Drafting and Keepers</center></h5>
 
+<A NAME="Article V"></A>
+<h5> <center>Article V – Season Schedule, Matchups, Playoffs</center></h5>
 
+<A NAME="Article VI"></A>
+<h5> <center>Article VI – Transactions</center></h5>
+
+<A NAME="Article VII"></A>
 <h5> <center>Article VII – Scoring and Winning</center></h5>
 
 <h6><b>Section 1:    Scoring</b> </h6>
@@ -411,6 +467,14 @@ slideLeftBtn.addEventListener('click', function(e) {
   </tbody>
 </table>
 
+<A NAME="Article VIII"></A>
+<h5> <center>Article VIII – The Champion</center></h5>
+
+<A NAME="Article IX"></A>
+<h5> <center>Article IX - Amendments</center></h5>
+
+<A NAME="Article X"></A>
+<h5> <center>Article X - Ratification</center></h5> 
 
 
 
