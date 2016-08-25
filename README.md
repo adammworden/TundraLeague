@@ -3,7 +3,10 @@ This is the repo for the Tundra League Fantasy Football Site. The site is curren
 
 #TODO:
 Hamburger menu and move slider to right side of page.
+
 Add in records page.
+
 Fix slider and positioning when constitution is minimized.
+
 Add in contact form.
 
