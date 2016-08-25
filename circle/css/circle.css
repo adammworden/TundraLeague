@@ -244,7 +244,7 @@
   margin: 0 auto;
 }
 .c100.big {
-  font-size: 160px;
+  font-size: 240px;
 }
 .c100.small {
   font-size: 80px;
@@ -1011,7 +1011,7 @@
   width: 3.33em;
   line-height: 3.33em;
   font-size: 0.3em;
-  color: #307bbb;
+  color: #67b5d1; 
 }
 .c100:hover:after {
   top: 0.04em;
