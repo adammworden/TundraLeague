@@ -29,6 +29,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* For the "inset" look only */  /* Let's get this party started */ 
+#container>div {display:inline-block;vertical-align:top}
 
 .navbar-brand {
   color: white;
